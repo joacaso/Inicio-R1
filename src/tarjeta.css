@@ -1,0 +1,33 @@
+/* Tarjeta.css */
+.tarjeta {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tarjeta-imagen {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+  .tarjeta-detalles {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tarjeta h2 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .tarjeta p {
+    margin: 4px 0 0;
+    color: #555;
+  }
+  
